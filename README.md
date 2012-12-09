@@ -1,6 +1,5 @@
-====
 Instructions
-====
+=========
 
 Prerequisites: 
   The directory ~/.zsh should exist with the following contents:
