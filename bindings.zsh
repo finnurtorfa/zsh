@@ -31,3 +31,5 @@ bindkey "\e[F" end-of-line
 
 bindkey '^A' backward-delete-char
 bindkey "^D" exit
+bindkey '^R' history-incremental-search-backward
+bindkey '^E' history-incremental-search-forward
