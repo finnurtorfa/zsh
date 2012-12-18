@@ -27,7 +27,7 @@ if [[ -z "$NOMENU" ]] ; then
 else
   setopt no_auto_menu # don't use any menus at all
 fi
-
+zstyle -e ':completion:*'                           special-dirs '[[ $PREFIX = (../)#(|.|..) ]] && reply=(..)'
 zstyle ':completion:*:messages'                     format '%d'                         #
 zstyle ':completion:*:options'                      auto-description '%d'               #
 zstyle ':completion:*:options'                      description 'yes'                   # describe options in full
