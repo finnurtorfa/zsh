@@ -1,4 +1,7 @@
+export PATH="${HOME}/bin:${PATH}"
+
 export ZLSCOLORS="${LS_COLORS}"
+
 
 # Virtalenvwrapper stuff
 export WORKON_HOME=~/.virtenvs
