@@ -24,8 +24,10 @@ alias gdv='git diff -w "$@" | vim -'
 alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias gco='git checkout'
+alias gcb='git checkout -b'
 alias gb='git branch'
 alias gba='git branch -a'
+alias gm='git merge'
 
 #-------------------------------------------------------------
 # Some common typos
@@ -33,3 +35,4 @@ alias gba='git branch -a'
 alias bim='vim'
 alias cim='vim'
 alias ks='ls'
+alias sl='ls'
