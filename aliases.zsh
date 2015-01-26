@@ -8,8 +8,6 @@ alias mv='mv -v'
 alias grep='grep --color=auto'
 alias cd..='cd ..'
 alias path='echo $PATH'
-alias python='python2.7'
-alias pip='pip-2.7'
 alias matlab='matlab -nodesktop'
 alias gcalc='gnome-calculator'
 
