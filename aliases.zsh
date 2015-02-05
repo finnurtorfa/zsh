@@ -10,6 +10,18 @@ alias cd..='cd ..'
 alias path='echo $PATH'
 alias matlab='matlab -nodesktop'
 alias gcalc='gnome-calculator'
+alias lesspdf=pdf_to_text
+
+pdf_to_text() {
+  pdftotext \
+    -layout \
+    -opw supersecret \
+    -upw secret \
+    -eol unix \
+    -nopgbrk \
+    $1 - \
+    | less
+}
 
 #-------------------------------------------------------------
 # Useful git aliases
